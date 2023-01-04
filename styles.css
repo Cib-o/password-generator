@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF597B;
+  min-height: 50vh;
+  padding: 10px;
+}
+
+.container {
+  background-color: rgb(246, 245, 245);
+  padding: 30px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
+  max-width: 600px;
+  min-width: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #FF597B;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #FF8E9E;
+  padding: 2px 10px;
+  margin: 20px auto;
+  outline: none;
+  height: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-success {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: #EEEEEE;
+  --bs-btn-bg: #FF597B;
+  --bs-btn-border-color: #FF8E9E;
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: #FF597B;
+  --bs-btn-hover-bg: #EEEEEE;
+  --bs-btn-hover-border-color: #FF597B;
+  --bs-btn-focus-shadow-rgb: #FF597B;
+  --bs-btn-active-color: #EEEEEE;
+  --bs-btn-active-bg: #FF8E9E;
+  --bs-btn-active-border-color: #FF8E9E;
+}
+
+#generateButton,
+#copyButton {
+  width: 8.5rem;
+  height: 2.5rem;
+}
